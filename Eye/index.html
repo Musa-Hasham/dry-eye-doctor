@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Eye Doctor</title>
+    <!-- Removed external stylesheet link as styles are now embedded -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top-nav">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot"></i>LOCATIONS</a></li>
+                    <li><a href="#">LOG IN</a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
+            <div class="header-main">
+                <div class="logo-container"><img src="images/drbrucecoward.png" alt="Dr. Bruce Coward Logo"></div>
+                <div class="burger-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-outline-red">SHOP ONLINE</button>
+                    <button class="btn btn-red">BOOK APPOINTMENT</button>
+                </div>
+            </div>
+            <div class="nav-bar"> <!-- Container for the collapsible nav -->
+                <nav>
+                    <ul class="nav-links"> <!-- This UL will be toggled -->
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SPECIALTY EYE CARE</a></li>
+                        <li><a href="#">EYE EXAMS</a></li>
+                        <li><a href="#">CATALOGUE</a></li>
+                        <li><a href="#">BUY CONTACT LENSES</a></li>
+                        <li><a href="#">BUY ACCESSORIES</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h1>FULL SERVICE EYE CARE</h1>
+                <p>IN TRENTON | BELLEVILLE | BRIGHTON | PICTON</p>
+                <button class="btn btn-outline-red">BOOK APPOINTMENT</button>
+                <button class="btn btn-white-on-red">VIEW YOUR LOCATIONS</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="vision-section">
+            <div class="vision-image-column">
+                <img src="images/future-img-min.jpg" alt="Optometry Services Future Vision">
+            </div>
+            <div class="vision-text-column">
+                <h2>Vision for the Future</h2>
+                <p>Welcome to Dr. Bruce Coward & Associates, serving 4 locations in Eastern Ontario in Trenton,
+                    Belleville, Brighton, and Picton. Our family has been providing high-quality optometric services
+                    since 1949, and we show the same dedication to our patients today.</p>
+                <p>We proudly offer full-scope eye exams and several vision correction options and treatments. Each of
+                    our locations is equipped with the latest technology for advanced diagnostics.</p>
+                <p>Protect your vision for the future with Dr. Coward & Associates. We welcome new patients at all
+                    locations.</p>
+                <button class="btn btn-outline-red">Learn More</button>
+            </div>
+        </section>
+    </div>
+
+    <section class="eye-exam-promo">
+        <div class="container">
+            <div class="eye-exam-promo-content">
+                <h3>OUR COMPREHENSIVE EYE EXAMS</h3>
+                <p class="eye-exam-paragraph-1">Our passion for eye care shows through our comprehensive eye exams. We
+                    use advanced equipment to evaluate your ocular health, including optical coherence tomography (OCT),
+                    pachymetry, and frequency doubling technology (FDT).</p>
+                <p class="eye-exam-paragraph-2">Finding the best treatment and vision correction for your eye health
+                    fuels our motivation. So, visit us for your next eye exam.</p>
+                <button class="btn btn-white-outline">BOOK APPOINTMENT</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <div class="container">
+            <div class="services-intro">
+                <h2>OUR SERVICES</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-item large">
+                    <img src="images/exams-image.jpg" alt="Comprehensive Eye Exams">
+                    <div class="service-item-caption">
+                        <p>Comprehensive Eye Exams</p>
+                    </div>
+                </div>
+                <div class="service-item-group">
+                    <div class="service-item small">
+                        <img src="images/lens-image.jpg" alt="Contact Lens Fitting">
+                        <div class="service-item-caption">
+                            <p>Contact Lens Fitting</p>
+                        </div>
+                    </div>
+                    <div class="service-item small">
+                        <img src="images/clinical-img.jpg" alt="Clinical Services">
+                        <div class="service-item-caption">
+                            <p>Clinical Services</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item-group">
+                    <div class="service-item small">
+                        <img src="images/dry-eye.jpg" alt="Dry Eye Exam">
+                        <div class="service-item-caption">
+                            <p>Dry Eye Exam</p>
+                        </div>
+                    </div>
+                    <div class="service-item small">
+                        <img src="images/oct-img.jpg" alt="OCT & Retinal Photography">
+                        <div class="service-item-caption">
+                            <p>OCT & Retinal Photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-item-group">
+                    <div class="service-item small">
+                        <img src="images/emergency-img.jpg" alt="Emergency Eye Care">
+                        <div class="service-item-caption">
+                            <p>Emergency Eye Care</p>
+                        </div>
+                    </div>
+                    <div class="service-item small">
+                        <img src="images/billing-img.jpg" alt="Direct Billing">
+                        <div class="service-item-caption">
+                            <p>Direct Billing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="direct-vision-promo">
+        <div class="container">
+            <div class="direct-vision-logo">
+                <img src="images/DV-logo.png" alt="Direct Vision Eyewear Logo">
+            </div>
+            <div class="direct-vision-content">
+                <p>Exclusive supplier of</p>
+                <h4>Direct Vision Eyewear</h4>
+                <button class="btn btn-red">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="browse-collection">
+        <div class="container">
+            <div class="browse-heading">
+                <h4>Browse the Collection</h4>
+            </div>
+            <div class="browse-grid">
+                <div class="browse-item">
+                    <img src="images/glasses-image.jpg" alt="Eyeglasses Collection">
+                    <button class="btn btn-outline-red">EYEGLASSES</button>
+                </div>
+                <div class="browse-item">
+                    <img src="images/sunglasses-image.jpg" alt="Sunglasses Collection">
+                    <button class="btn btn-outline-red">SUNGLASSES</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands-showcase">
+        <div class="container">
+            <div class="brands-grid">
+                <div class="brand-column-1">
+                    <div class="brand-item">
+                        <img src="images/ryaban-bran-img.jpg" alt="Ray-Ban Brand">
+                    </div>
+                    <div class="brand-item brand-try-on">
+                        <img src="images/try-on-banner.jpg" alt="Virtual Try On Banner">
+                        <div class="brand-try-on-content">
+                            <h5>FULL SERVICE EYE CARE</h5>
+                            <p>Discover how your favourite frames will look on you!</p>
+                            <button class="btn btn-red">TRY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-column-2">
+                    <div class="brand-item">
+                        <img src="images/oakley-banner.jpg" alt="Oakley Banner">
+                    </div>
+                    <div class="brand-item">
+                        <img src="images/guess-image.jpg" alt="Guess Brand">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-logos">
+        <div class="container">
+            <div class="brand-logos-grid">
+                <div><img src="images/vogue-logo.png" alt="Vogue eyewear logo"></div>
+                <div><img src="images/versace-logo.png" alt="Versace eyewear logo"></div>
+                <div><img src="images/rayban-logo.png" alt="RayBan eyewear logo"></div>
+                <div><img src="images/gant-logo.png" alt="Gant eyewear logo"></div>
+                <div><img src="images/ralph-logo.png" alt="Ralph Lauren eyewear logo"></div>
+                <div><img src="images/oliver-logo.png" alt="Oliver Peoples eyewear logo"></div>
+            </div>
+            <div class="brand-logos-action">
+                <button class="btn btn-red btn-border-on-hover">VIEW OUR BRANDS</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-lenses-showcase">
+        <div class="container">
+            <div class="contact-lenses-heading">
+                <h4>Contact Lenses</h4>
+            </div>
+            <div class="contact-lenses-grid">
+                <div class="contact-lens-item">
+                    <img src="images/90101-1.png" alt="Biofinity XR (6 Pack)">
+                    <p class="lens-name">Biofinity XR (6 Pack)</p>
+                    <p class="lens-price">$56.00</p>
+                </div>
+                <div class="contact-lens-item">
+                    <img src="images/90112-1.png" alt="Dailies Aquacomfort Plus (30 Pack)">
+                    <p class="lens-name">Dailies Aquacomfort Plus (30 Pack)</p>
+                    <p class="lens-price">$56.00</p>
+                </div>
+                <div class="contact-lens-item">
+                    <img src="images/90113-1.png" alt="Dailies Aquacomfort Plus (30 Pack)">
+                    <p class="lens-name">Dailies Aquacomfort Plus (30 Pack)</p>
+                    <p class="lens-price">$56.00</p>
+                </div>
+                <div class="contact-lens-item">
+                    <img src="images/90166-2.png" alt="Biofinity XR (6 Pack)">
+                    <p class="lens-name">Biofinity XR (6 Pack)</p>
+                    <p class="lens-price">$56.00</p>
+                </div>
+            </div>
+            <div class="contact-lenses-action">
+                <button class="btn btn-red">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer-reviews">
+        <div class="container">
+            <div class="reviews-heading">
+                <h4>What Our Customers Are Saying</h4>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <p>"Dr. Ricky Cheung was patient and thorough, very knowledgeable and explained everything clearly.
+                        The staff were friendly and helpful too! Great experience overall."</p>
+                    <div class="review-card-footer">
+                        <h6>Nancy D</h6>
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <p>"Fantastic experience! Was impressed with the technology used during the exam. Staff rocks!
+                        Highly recommend this clinic for anyone needing eye care."</p>
+                    <div class="review-card-footer">
+                        <h6>Shawnee M</h6>
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <p>"Highly recommend! Everyone was friendly and easy to talk to. They took the time to answer all my
+                        questions and I didn't feel rushed at all."</p>
+                    <div class="review-card-footer">
+                        <h6>Heather S</h6>
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-more">
+                <a href="#More-reviews">More Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="optometrist-info">
+            <div class="optometrist-image-column">
+                <img src="images/doctors-min.jpg" alt="Team of Optometrists">
+            </div>
+            <div class="optometrist-text-column">
+                <h2>Need a Great Optometrist? We’ve got Seven of Them</h2>
+                <p>The team at Dr. Coward & Associates is genuinely passionate about protecting your ocular well being.
+                </p>
+                <ul>
+                    <li><strong>Dr. Bruce Coward</strong> has been providing comprehensive and emergency ocular services
+                        to the community since 1983.</li>
+                    <li><strong>Dr. Nathalie Renaud</strong> provides optometry services in both English and French.
+                    </li>
+                    <li><strong>Dr. Jim Tzeng</strong> has specialized experience in ocular disease treatment.</li>
+                    <li><strong>Dr. Sanyukta Awale</strong> lends her extensive knowledge of corneal and renal care to
+                        non-proﬁt organizations serving underprivileged patients in rural India.</li>
+                    <li><strong>Dr. Maria Coward</strong> has extensive knowledge of ocular disease and provides low
+                        vision services.</li>
+                    <li><strong>Dr. Ricky Cheung</strong> is passionate about ocular health and vision therapy.</li>
+                    <li><strong>Dr. William Ulakovic</strong> who has recently relocated to the County after a
+                        successful career of providing comprehensive eyecare in Thunder Bay.</li>
+                </ul>
+                <button class="btn btn-outline-red">Learn More</button>
+            </div>
+        </section>
+    </div>
+
+    <section class="locations-section">
+        <div class="container">
+            <h1 class="locations-title">OUR LOCATIONS IN ONTARIO</h1>
+            <div class="locations-grid">
+                <!-- Trenton Location -->
+                <div class="location-card">
+                    <div class="location-card-content">
+                        <h2 class="location-name">Trenton Location</h2>
+                        <p class="location-phone"><i class="fa-solid fa-phone"></i>613-392-6211</p>
+                        <div class="opening-times-header" id="trenton-opening-times-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="icon-arrow" id="trenton-arrow">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="opening-times-label">Opening Times</span>
+                        </div>
+                        <div class="opening-times-details" id="trenton-opening-times-details">
+                            <p>Mon - Fri: 8:00 am - 5:30 pm</p>
+                            <p>Sat - Sun: Closed</p>
+                        </div>
+                        <p class="location-address"><i class="fa-solid fa-location-dot"></i>287 Dundas Street
+                            East<br>Trenton, ON K8V 1M1</p>
+                        <button class="btn btn-red">Book Now</button>
+                    </div>
+                </div>
+                <!-- Belleville Location -->
+                <div class="location-card">
+                    <div class="location-card-content">
+                        <h2 class="location-name">Belleville Location</h2>
+                        <p class="location-phone"><i class="fa-solid fa-phone"></i>613-968-6560</p>
+                        <div class="opening-times-header" id="belleville-opening-times-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="icon-arrow" id="belleville-arrow">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="opening-times-label">Opening Times</span>
+                        </div>
+                        <div class="opening-times-details" id="belleville-opening-times-details">
+                            <p>Mon - Fri: 8:00 am - 5:30 pm</p>
+                            <p>Sat - Sun: Closed</p>
+                        </div>
+                        <p class="location-address"><i class="fa-solid fa-location-dot"></i>156 North Front
+                            Street<br>Belleville, ON K8P 3B8</p>
+                        <button class="btn btn-red">Book Now</button>
+                    </div>
+                </div>
+                <!-- Brighton Location -->
+                <div class="location-card">
+                    <div class="location-card-content">
+                        <h2 class="location-name">Brighton Location</h2>
+                        <p class="location-phone"><i class="fa-solid fa-phone"></i>613-475-3900</p>
+                        <div class="opening-times-header" id="brighton-opening-times-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="icon-arrow" id="brighton-arrow">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="opening-times-label">Opening Times</span>
+                        </div>
+                        <div class="opening-times-details" id="brighton-opening-times-details">
+                            <p>Mon - Fri: 8:00 am - 5:30 pm</p>
+                            <p>Sat - Sun: Closed</p>
+                        </div>
+                        <p class="location-address"><i class="fa-solid fa-location-dot"></i>46 Prince Edward Street
+                            #10<br>Brighton, ON K0K 1H0</p>
+                        <button class="btn btn-red">Book Now</button>
+                    </div>
+                </div>
+                <!-- Picton Location -->
+                <div class="location-card">
+                    <div class="location-card-content">
+                        <h2 class="location-name">Picton Location</h2>
+                        <p class="location-phone"><i class="fa-solid fa-phone"></i>613-476-2654</p>
+                        <div class="opening-times-header" id="picton-opening-times-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="icon-arrow" id="picton-arrow">
+                                <path fill-rule="evenodd"
+                                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 011.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span class="opening-times-label">Opening Times</span>
+                        </div>
+                        <div class="opening-times-details" id="picton-opening-times-details">
+                            <p>Mon - Fri: 8:30 am - 5:30 pm</p>
+                            <p>Sat - Sun: Closed</p>
+                        </div>
+                        <p class="location-address"><i class="fa-solid fa-location-dot"></i>389 Picton Main
+                            Street<br>Picton, ON K0K 2T0</p>
+                        <button class="btn btn-red">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="message-box" class="message-box"></div> <!-- Message display element -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-column footer-logo-info">
+                    <img src="images/footer-logo.png" alt="Dr. Bruce Coward Footer Logo">
+                    <p>Dr. Coward & Associates, your family resource for optometry services in Belleville, Trenton,
+                        Picton
+                        and Brighton ON.</p>
+                    <button class="btn btn-outline-white">SHOP ONLINE</button>
+                </div>
+                <div class="footer-column">
+                    <h4>ABOUT US</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Locations</a></li>
+                        <li><a href="#">Insurance & Payment Information</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>SPECIALTY EYECARE</h4>
+                    <ul>
+                        <li><a href="#">Dry Eye Therapy</a></li>
+                        <li><a href="#">Myopia Control</a></li>
+                        <li><a href="#">Low Vision</a></li>
+                        <li><a href="#">OCT & Retinal Photography</a></li>
+                        <li><a href="#">Emergency Eye Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>EYE EXAMS</h4>
+                    <ul>
+                        <li><a href="#">Adult & Senior Exams</a></li>
+                        <li><a href="#">Children's Eye Exams</a></li>
+                        <li><a href="#">Diabetic Eye Exams</a></li>
+                        <li><a href="#">Contact Lens Exams, Fittings & Brands</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>BRANDS</h4>
+                    <ul>
+                        <li><a href="#">Eyeglasses</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                        <li><a href="#">Our Brands</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>CUSTOMER SERVICE</h4>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                    <button class="btn btn-red">BOOK APPOINTMENT</button>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>© All rights reserved. Website Solution designed and developed by OptiCommerce</p>
+                <div class="footer-social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // --- Function to display a message ---
+            function showMessage(message, type = 'success') { // type can be 'success' or 'error'
+                const messageBox = document.getElementById('message-box');
+                if (!messageBox) {
+                    console.error("Message box element not found!");
+                    return;
+                }
+                messageBox.textContent = message;
+                messageBox.classList.remove('success', 'error');
+                messageBox.classList.add(type);
+                messageBox.classList.add('show');
+
+                // Hide after 3 seconds
+                setTimeout(() => {
+                    messageBox.classList.remove('show');
+                }, 3000);
+            }
+            // --- Example Usage (uncomment to test) ---
+            // showMessage("Appointment booked successfully!", "success");
+            // showMessage("Network error, please try again.", "error");
+
+
+            // --- Locations Opening Times Toggle ---
+            const locationSections = [
+                { headerId: 'trenton-opening-times-header', detailsId: 'trenton-opening-times-details', arrowId: 'trenton-arrow' },
+                { headerId: 'belleville-opening-times-header', detailsId: 'belleville-opening-times-details', arrowId: 'belleville-arrow' },
+                { headerId: 'brighton-opening-times-header', detailsId: 'brighton-opening-times-details', arrowId: 'brighton-arrow' },
+                { headerId: 'picton-opening-times-header', detailsId: 'picton-opening-times-details', arrowId: 'picton-arrow' }
+            ];
+
+            locationSections.forEach(location => {
+                const header = document.getElementById(location.headerId);
+                const details = document.getElementById(location.detailsId);
+                const arrow = document.getElementById(location.arrowId);
+
+                if (header && details && arrow) {
+                    header.addEventListener('click', () => {
+                        details.classList.toggle('show');
+                        arrow.classList.toggle('rotated');
+                    });
+                } else {
+                    console.warn(`Elements for location toggle not found for one or more locations: Header=${location.headerId}, Details=${location.detailsId}, Arrow=${location.arrowId}`);
+                }
+            });
+
+
+            // --- Burger Menu Toggle ---
+            const burgerMenu = document.querySelector('.burger-menu');
+            const navBar = document.querySelector('.nav-bar'); // Target the container
+            const burgerIcon = burgerMenu ? burgerMenu.querySelector('i') : null;
+
+            if (burgerMenu && navBar && burgerIcon) {
+                burgerMenu.addEventListener('click', () => {
+                    navBar.classList.toggle('nav-active'); // Toggle class on the container
+                    // Toggle burger icon class
+                    burgerIcon.classList.toggle('fa-bars');
+                    burgerIcon.classList.toggle('fa-xmark');
+                });
+
+                // Optional: Close menu when a link is clicked (for single-page apps or smooth scroll)
+                const navLinks = navBar.querySelectorAll('.nav-links a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        if (navBar.classList.contains('nav-active')) {
+                            navBar.classList.remove('nav-active');
+                            burgerIcon.classList.remove('fa-xmark');
+                            burgerIcon.classList.add('fa-bars');
+                        }
+                    });
+                });
+
+            } else {
+                console.warn("Burger menu or navigation bar element not found.");
+            }
+
+
+            // --- Footer Accordion Toggle ---
+            const footerColumns = document.querySelectorAll('.footer-main .footer-column');
+            const mobileBreakpoint = 768; // Define breakpoint
+
+            footerColumns.forEach(column => {
+                const heading = column.querySelector('h4');
+                const list = column.querySelector('ul');
+
+                if (heading && list) { // Only process columns with both h4 and ul
+                    heading.addEventListener('click', () => {
+                        if (window.innerWidth <= mobileBreakpoint) {
+                            heading.classList.toggle('footer-heading-active');
+                            list.classList.toggle('footer-list-active');
+                        }
+                    });
+                }
+            });
+
+            // Reset footer state on resize across the mobile breakpoint
+            let currentWidth = window.innerWidth;
+            window.addEventListener('resize', () => {
+                const newWidth = window.innerWidth;
+                if ((currentWidth <= mobileBreakpoint && newWidth > mobileBreakpoint) || (currentWidth > mobileBreakpoint && newWidth <= mobileBreakpoint)) {
+                    footerColumns.forEach(column => {
+                        const heading = column.querySelector('h4');
+                        const list = column.querySelector('ul');
+                        if (heading) heading.classList.remove('footer-heading-active');
+                        if (list) list.classList.remove('footer-list-active');
+                    });
+                }
+                currentWidth = newWidth;
+            });
+
+        }); // End of DOMContentLoaded
+    </script>
+
+</body>
+
+</html>
